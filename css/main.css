@@ -64,53 +64,21 @@ textarea {
 
 body {
     min-height: 100%;
-    background-color: #009399;
-    color: #fff;
+    background-color: #fff;
+    color: #282828;
     font-family: sans-serif;
 }
 
-header {
-    position: fixed;
-    width: 25%;
+.logo {
     height: 100%;
-    float: left;
-}
-
-header h2 {
-    font-size: 1em;
-    display: block;
-}
-
-.pics {
-    text-align: center;
-    padding-top: 15%;
-    width: 75%;
-    float: right;
-}
-
-.pics article {
-    margin-bottom: 15%;
-}
-
-.pics h4 {
-    letter-spacing: .1em;
-    font-size: .8em;
-    text-transform: lowercase;
+    margin-top: 30%;
+    margin-bottom: 40%;
 }
 
 section:after {
     clear: both;
 }
 
-.downloadable {
-    width: 60%;
-    height: 30%;
-}
-
-h2 {
-    padding-left: 5%;
-    text-align: center;
-}
 
 
 
