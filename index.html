@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -45,8 +46,8 @@
       </ul> -->
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#about">About</a></li>
         <li><a href="#">Shop All</a></li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -63,6 +64,44 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<!-- Sign Up Modal -->
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Enlist Now</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Modal -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">About</h4>
+      </div>
+      <div class="modal-body">
+        The American flag is the symbol of our freedom, national pride and history. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
        <!--  <div class="row btn-group pull-right">
                 <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Menu <span class="caret"></span>
                 </button>
@@ -71,16 +110,19 @@
         </div> -->
         <section class="row logo">
             
-            <section class="row">
-                <img src="img/ms.png" class="col-md-4 col-md-offset-4 img-responsive padding-bottom">
+            <section class="container">
+                <div class="row">                    
+                    <img src="img/ms.png" class="col-md-4 col-md-offset-4 img-responsive padding-bottom">
+                    <h5 class="col-md-12 text-center">the most patriotic stock photos on the web.</h5>
+                </div>
             </section>
 
             <section class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Sign Up Now...">
+                      <input type="text" class="form-control" placeholder="I WANT YOU... to enter your email">
                       <span class="input-group-btn">
-                        <button class="btn btn-default btn-fix" type="button">Sign Me Up</button>
+                        <button class="btn btn-default btn-fix" type="button">Enlist</button>
                       </span>
                     </div><!-- /input-group -->
                 </div><!-- /.col-lg-6 -->
@@ -118,6 +160,8 @@
 
         </section>
     </section>
+
+    <footer class="row"></footer>
 
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
